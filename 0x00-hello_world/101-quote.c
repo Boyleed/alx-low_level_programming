@@ -5,7 +5,8 @@
  *
  *  *
  *
- *  *Return: 1 on success.*/
+ *  *Return: 1 on success.
+ *  */
 
 int main(void)
 
