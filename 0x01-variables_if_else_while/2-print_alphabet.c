@@ -1,15 +1,16 @@
+#include <stdio.h>
 /**
  ** main - Prints all possible combinations of single-digit numbers.
+ ** Description - 'Main Function'
  ** Return: Always 0.
  **/
 
 int main(void)
 {
-	int num;
-	
-	for (num = 'a' ; num <= 'z' ; num++)
+	char ch;
+	for (ch = 'a' ; ch <= 'z' ; num++)
 	{
-		putchar(num);
+		putchar(ch);
 	}
 	putchar('\n');
 	return (0);
