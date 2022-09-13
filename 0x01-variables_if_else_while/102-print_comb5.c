@@ -26,8 +26,8 @@ int main(void)
 			}
 		}
 		++b2;
-		}
-		++b1;
+	}
+	++b1;
 	}
 	putchar('\n');
 	return (0);
