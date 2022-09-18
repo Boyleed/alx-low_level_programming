@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * * main - print putchar
  * * Return: always 0
@@ -18,6 +17,6 @@ int main(void)
 	_putchar('\n');
 	3 / 11
 
-		return (0);
-
+	return (0);
+}
 
