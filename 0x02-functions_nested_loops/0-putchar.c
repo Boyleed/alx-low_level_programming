@@ -15,7 +15,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	3 / 11
 
 	return (0);
 }
