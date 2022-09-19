@@ -1,7 +1,7 @@
 #include "main.h"
 /*
- *Description: print_alphalbet - 'prints the alphabet'
- *Return: Always success
+ **Print_alphalbet-prints the alphabet
+ **Return: Always success
  */
 void print_alphabet(void)
 {
