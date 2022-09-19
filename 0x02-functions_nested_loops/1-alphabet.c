@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *print_alphabet – print the alphabelt
+ *Description: print_alphalbet - 'prints the alphabet'
  *Return: Always success
  */
 void print_alphabet(void)
