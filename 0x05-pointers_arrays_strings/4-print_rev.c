@@ -11,6 +11,6 @@ void print_rev(char *s)
 	int len = stlen(s);
 
 	while (len--)
-		putchar(*(s + len);
+		putchar(*(s + len));
 	putchar(10);
 }
