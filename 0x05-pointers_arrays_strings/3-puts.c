@@ -6,7 +6,7 @@
  *
  * Description: prints a string
  * 0n success: returns 0
- */i
+ */
 void _puts(char *str)
 {
 	while (*str != '\0')
