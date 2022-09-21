@@ -1,20 +1,50 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * puts2 - print every other char
- * @str: string
- *
- * return: 0
+ * rev_string - This function reverses a string and prints on the stdout
+ * @s: Pointer paramater
  */
-void rev_string(char *str)
-{
-	int l, i;
-	char ch;
 
-	for (l = 0; s[i] != '\0'; l++)
-	for (i = 0; i < 1/2; i++)
-	ch = s[l];
-	s[l] = s[l - 1 - i];
-	s[l - 1 - i] = ch;
+
+
+void rev_string(char *s)
+{
+
+	int i, size, half;
+
+	char first, last;
+
+
+
+	i = 0;
+
+	while (s[i] != '\0')
+
+	{
+	
+			i++;
+	
+		}
+
+	size = i - 1;
+
+	half = size / 2;
+
+	while (half >= 0)
+
+	{
+	
+			first = s[size - half];
+	
+			last = s[half];
+	
+			s[half] = first;
+	
+			s[size - half] = last;
+	
+			half--;
+	
+		}
 
 }
