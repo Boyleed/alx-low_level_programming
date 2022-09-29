@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- *
  * is_prime - recursively divide by higher divisor, skip even nums
  *
  * @n: number to check if prime
@@ -29,7 +28,6 @@ int is_prime(int n, int divisor)
 * @n: number to check
 *
 * Return: 1 if prime, 0 if not
-*
 */
 
 int is_prime_number(int n)
@@ -41,6 +39,6 @@ int is_prime_number(int n)
 
 	if (n == 2)
 		return (1);
-
+	
 	return (is_prime(n, divisor));
 }

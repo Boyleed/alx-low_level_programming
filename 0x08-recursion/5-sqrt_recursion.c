@@ -10,10 +10,7 @@
  * Return: natural square root, or -1 if not natural root
  */
 
-
-
 int find_root(int n, int root)
-
 {
 	if (root * root > n)
 		return (-1);

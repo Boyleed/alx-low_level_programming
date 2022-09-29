@@ -1,58 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strlen - return length of string
- * @str: string to check
+ * _print_rev_recursion - Print a string in reverse fol*lowed by a newline
  *
- * Return: length of str
+ * @s: Pointer to use
+ *
+ * Return: void
  */
 
-int _strlen(char *str)
-{
-	if (*str == '\0')
-		return (0);
-	else
-		return (1 + _strlen(str + 1));
-}
-
-
-/**
- * check_palindrome - checks to see if a string is a palindrome
- *
- * @a: left hand index
- *
- * @b: right hand index
- *
- * @c: possible palindrome
- *
- * Return: 1 if palindrome 0 if not
- */
-
-int check_palindrome(int a, int b, char *c)
-{
-	if (a >= b)
-		return (1);
-	else if (c[a] != c[b])
-		return (0);
-	else
-		return (check_palindrome(a + 1, b - 1, c));
-}
-
-
-/**
- * is_palindrome - states if a string is a palindrome
- *
- * @s: string to check*
- *
- * Return: 1 if palindrome, 0 if not
- *
- */
-
-int is_palindrome(char *s)
+void _print_rev_recursion(char *s)
 {
 
-	int i;
+	if (*s == '\0')
+		return;
 	
-	i = _strlen(s) - 1;
-	return (check_palindrome(0, i, s));
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
 }
