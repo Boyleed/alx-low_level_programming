@@ -1,5 +1,5 @@
 #include "main.h"
-/*8
+/**
  * _calloc - allocates memory for an array, using malloc
  * @nmemb: number of elements of pointer
  * @size: size of each member
